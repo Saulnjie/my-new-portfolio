@@ -32,3 +32,14 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+
+node_modules/
+
+logs
+*.log
+npm-debug.log*
+yarn_debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
