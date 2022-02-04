@@ -3,8 +3,8 @@ import media from "styled-media-query";
 
 const GlobalStyle = createGlobalStyle`
 :root {
-    /* font-family: 'Raleway', sans-serif;
-    --font-body: 'Raleway', sans-serif; */
+    --font-family: 'Raleway', sans-serif;
+    --font-body: 'Raleway', sans-serif;
 
     /* --font-headings:  */
 
@@ -63,7 +63,7 @@ const GlobalStyle = createGlobalStyle`
     
     /*QUERY*/
 
-    ${media.greaterThan('small')`
+    ${media.greaterThan("small")`
     --font-size-base: 18px;
 
     --size-xxs: 6px;
@@ -78,7 +78,7 @@ const GlobalStyle = createGlobalStyle`
     --size-jumbo: 250px;
     `}
 
-    ${media.greaterThan('medium')`
+    ${media.greaterThan("medium")`
     --font-size-base: 18px;
 
     --size-xxs: 6px;
@@ -93,7 +93,7 @@ const GlobalStyle = createGlobalStyle`
     --size-jumbo: 250px;
     `}
 
-    ${media.greaterThan('large')`
+    ${media.greaterThan("large")`
     --font-size-base: 18px;
 
     --size-xxs: 6px;
@@ -108,7 +108,7 @@ const GlobalStyle = createGlobalStyle`
     --size-jumbo: 250px;
     `}
     
-    ${media.greaterThan('huge')`
+    ${media.greaterThan("huge")`
     --font-size-base: 18px;
 
     --size-xxs: 6px;
