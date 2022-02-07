@@ -38,8 +38,10 @@ const GlobalStyle = createGlobalStyle`
     --color-secondary:#37383D;
     --color-tertiary:#2B73C9;
     --color-quaternary:#FFCF54;
-    --color-white:#ffff;
-    --color-black:#222327;
+    --color-white:#E0DFDD;
+    --color-black:#151515;
+    --color-grey:#292929;
+    --color-background:#151515;
 
     /* --c-action: ;
     --c-danger:;

@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import styled from "styled-components";
 import Head from "next/head";
+import ProjectCard from "../components/ProjectCard";
 
 /* PRIMARY COMPONENTS */
 const Main = styled.div`
@@ -16,7 +17,7 @@ const Body = styled.div`
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background: green;
+  background-color: var(--color-background);
 `;
 
 function MyApp({ Component, pageProps }) {
@@ -35,6 +36,7 @@ function MyApp({ Component, pageProps }) {
         <Header />
         <Main>
           <Component {...pageProps} />
+          <ProjectCard></ProjectCard>
         </Main>
         <Footer />
       </Body>
