@@ -17,6 +17,6 @@ const StyledButton = styled.button`
   border: none;
 `;
 
-export default function VisitButton() {
-  return <StyledButton>Visit site</StyledButton>;
+export default function VisitButton({ children }) {
+  return <StyledButton>{children}</StyledButton>;
 }
