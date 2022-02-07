@@ -2,7 +2,7 @@ import styled from "styled-components";
 import H2 from "../Title";
 
 const StyledFooter = styled.div`
-  width: 80%;
+  width: 100%;
   height: 100px;
   background: red;
   flex: 0 0 auto;

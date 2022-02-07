@@ -3,13 +3,13 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import styled from "styled-components";
 import Head from "next/head";
-import ProjectCard from "../components/ProjectCard";
 
 /* PRIMARY COMPONENTS */
 const Main = styled.div`
   width: 100%;
-  background: yellow;
   flex: 1 0 auto;
+  max-width: 1200px;
+  margin: 0 auto;
 `;
 
 const Body = styled.div`
@@ -33,12 +33,11 @@ function MyApp({ Component, pageProps }) {
         ></link>
       </Head>
       <Body>
-        <Header />
         <Main>
+          <Header />
           <Component {...pageProps} />
-          <ProjectCard></ProjectCard>
+          <Footer />
         </Main>
-        <Footer />
       </Body>
     </>
   );
