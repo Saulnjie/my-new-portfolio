@@ -1,7 +1,10 @@
 import styled from "styled-components";
-import VisitButton from "../Button";
+import Button from "../Button";
 
-const H2 = styled.h2``;
+const H2 = styled.h2`
+  color: var(--color-white);
+  font-size: var(--font-size-md);
+`;
 
 const P = styled.p`
   font-size: var(--font-size);
@@ -15,17 +18,20 @@ const P = styled.p`
 const StyledprojectCard = styled.div`
   display: flex;
   background: var(--color-grey);
+  border-radius: 8px;
 `;
 
 const ProjectCardWrapper = styled.div`
   display: flex;
   flex-direction: column;
   padding: 16px;
+  width: 100%;
 `;
 
 const ProjectCardImg = styled.img`
   width: 400px;
   height: auto;
+  border-radius: 8px 0px 0px 8px;
 `;
 
 export default function ProjectCard({ imageSrc, title, paragraph }) {
@@ -35,7 +41,7 @@ export default function ProjectCard({ imageSrc, title, paragraph }) {
       <ProjectCardWrapper>
         <H2>{title}</H2>
         <P>{paragraph}</P>
-        <VisitButton></VisitButton>
+        <Button>Visit site</Button>
       </ProjectCardWrapper>
     </StyledprojectCard>
   );
