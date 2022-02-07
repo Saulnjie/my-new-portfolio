@@ -2,12 +2,6 @@ import styled from "styled-components";
 import ProjectCard from "../components/ProjectCard";
 import About from "../components/About";
 
-const Demo = styled.div`
-  background-color: red;
-  width: 200px;
-  height: 150px;
-`;
-
 const projectCards = [
   {
     imageSrc: "/images/TSSMCard.jpg",
