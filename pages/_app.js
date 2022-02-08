@@ -34,7 +34,7 @@ function MyApp({ Component, pageProps }) {
       </Head>
       <Body>
         <Main>
-          <Header />
+          {/* <Header /> */}
           <Component {...pageProps} />
           <Footer />
         </Main>

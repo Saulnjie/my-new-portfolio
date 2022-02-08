@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import ProjectCard from "../components/ProjectCard";
 import About from "../components/About";
+import HeroLanding from "../components/HeroCard";
 
 const projectCards = [
   {
@@ -32,6 +33,7 @@ const ProjectCardWrapper = styled.div`
 export default function Home() {
   return (
     <div>
+      <HeroLanding></HeroLanding>
       <ProjectCardWrapper>
         {projectCards.map((projectCard) => {
           return (

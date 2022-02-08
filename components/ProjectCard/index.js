@@ -26,6 +26,7 @@ const ProjectCardWrapper = styled.div`
   flex-direction: column;
   padding: 16px;
   width: 100%;
+  border-radius: 8px 0px 0px 8px;
 `;
 
 const ProjectCardImg = styled.img`
