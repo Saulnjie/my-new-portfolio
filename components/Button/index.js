@@ -7,16 +7,12 @@ const StyledButton = styled.button`
   align-items: center;
   justify-content: center;
   background: var(--color-black);
-  margin-top: var(--size);
-  /* margin-right: 10%; */
-  margin-left: auto;
-  margin-bottom: var(--size);
   color: var(--color-white);
   font-size: var(--font-size);
   border-radius: 8px;
   border: none;
 `;
 
-export default function VisitButton({ children }) {
+export default function Button({ children }) {
   return <StyledButton>{children}</StyledButton>;
 }
