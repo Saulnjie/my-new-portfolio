@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { FaGithub } from "react-icons/fa";
 
 const StyledAboutContainer = styled.div`
   display: flex;
@@ -20,10 +21,11 @@ const StyledAboutSection = styled.div`
 const StyledIconSection = styled.div`
   width: 30%;
   display: flex;
-  background-color: red;
+  /* background-color: red; */
   border-left: 5px solid var(--color-grey);
   height: 550px;
   margin: auto;
+  color: #676767;
 `;
 
 const P = styled.p`
@@ -54,7 +56,7 @@ export default function About() {
       </StyledAboutSection>
       <StyledIconSection>
         <a>
-          <i className="" />
+          <i className="FaGithub" />
         </a>
         <a>
           <i className="" />

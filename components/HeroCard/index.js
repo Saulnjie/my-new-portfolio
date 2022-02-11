@@ -10,7 +10,7 @@ const LandingCardMain = styled.div`
 const StyledHeroCardContainer = styled.div`
   display: flex;
   flex-direction: row;
-  background: yellow;
+  /* background: yellow; */
   height: 92%;
   width: 100%;
   /* margin-top: var(--size-xl); */
@@ -21,22 +21,23 @@ const StyledHeroCardLeft = styled.div`
   flex-direction: column;
   height: 100%;
   width: 70%;
-  background: red;
+  /* background: red; */
   margin-left: 15%;
 `;
 const StyledHeroCardRight = styled.div`
   display: flex;
   flex-direction: column;
   height: 100%;
-  background: red;
+  /* background: red; */
   width: 30%;
   margin-right: 12.5%;
 `;
 
-const StyledHeroNav = styled.div`
-  width: 20%;
-  display: flex;
-  margin-left: 75%;
+const StyledHeroImage = styled.div`
+  background: url("/images/Saul.png");
+  height: 279px;
+  width: 287px;
+  margin: auto;
 `;
 
 const P = styled.p`
@@ -54,7 +55,7 @@ const H3 = styled.h3`
 `;
 
 const H2 = styled.h2`
-  color: var(--color-white);
+  color: var(--color-black);
   font-size: var(--font-size-md);
   font-weight: 300;
 `;
@@ -62,17 +63,13 @@ const H2 = styled.h2`
 const StyledP = styled.p`
   font-family: "Raleway";
   font-size: var(--font-size);
-  color: var(--color-black);
+  font-weight: 500;
+  color: var(--color-tertiary);
 `;
 
 export default function HeroLanding() {
   return (
     <LandingCardMain>
-      <StyledHeroNav>
-        <P>Work</P>
-        <P>About</P>
-        <P>Contact</P>
-      </StyledHeroNav>
       <StyledHeroCardContainer>
         <StyledHeroCardLeft>
           <StyledP>SAUL NJIE</StyledP>
@@ -82,7 +79,9 @@ export default function HeroLanding() {
             JavaScript
           </H2>
         </StyledHeroCardLeft>
-        <StyledHeroCardRight>dad</StyledHeroCardRight>
+        <StyledHeroCardRight>
+          <StyledHeroImage></StyledHeroImage>
+        </StyledHeroCardRight>
       </StyledHeroCardContainer>
     </LandingCardMain>
   );
