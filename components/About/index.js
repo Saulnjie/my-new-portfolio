@@ -39,10 +39,18 @@ const H3 = styled.h3`
   color: var(--color-black);
 `;
 
+const StyledP = styled.p`
+  font-family: "Raleway";
+  font-size: var(--font-size);
+  font-weight: 500;
+  color: var(--color-tertiary);
+`;
+
 export default function About() {
   return (
     <StyledAboutContainer>
       <StyledAboutSection>
+        <StyledP>My name is</StyledP>
         <H3>Saul Njie</H3>
         <P>
           I'm baby whatever craft beer cliche blog austin cold-pressed hammock

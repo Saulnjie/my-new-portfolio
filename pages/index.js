@@ -33,10 +33,23 @@ const ProjectCardWrapper = styled.div`
   margin: 40px 0;
 `;
 
+const SkyImageWrapper = styled.div`
+  background: url("/images/bluesky.jpg");
+  /* width: 100%;
+  height: 600px;
+  object-fit: cover; */
+`;
+
+const Spacer = styled.div`
+  margin-top: var(--size-huge);
+`;
+
 export default function Home() {
   return (
     <div>
+      <SkyImageWrapper></SkyImageWrapper>
       <HeroLanding></HeroLanding>
+      <Spacer></Spacer>
       <ProjectCardWrapper>
         {projectCards.map((projectCard) => {
           return (
@@ -49,7 +62,9 @@ export default function Home() {
           );
         })}
       </ProjectCardWrapper>
+      <Spacer></Spacer>
       <About></About>
+      <Spacer></Spacer>
     </div>
   );
 }

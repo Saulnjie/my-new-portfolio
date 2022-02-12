@@ -11,7 +11,7 @@ const StyledHeroCardContainer = styled.div`
   display: flex;
   flex-direction: row;
   /* background: yellow; */
-  height: 92%;
+  height: 100%;
   width: 100%;
   /* margin-top: var(--size-xl); */
 `;
@@ -23,6 +23,7 @@ const StyledHeroCardLeft = styled.div`
   width: 70%;
   /* background: red; */
   margin-left: 15%;
+  margin-top: 10%;
 `;
 const StyledHeroCardRight = styled.div`
   display: flex;
@@ -52,6 +53,7 @@ const H3 = styled.h3`
   font-family: "Raleway";
   font-size: var(--font-size-xxl);
   color: var(--color-black);
+  margin: 0; /*Kanskje ikke beholde?*/
 `;
 
 const H2 = styled.h2`
