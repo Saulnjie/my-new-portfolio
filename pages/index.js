@@ -44,6 +44,7 @@ export default function Home() {
               imageSrc={projectCard.imageSrc}
               title={projectCard.title}
               paragraph={projectCard.paragraph}
+              externalUrl={projectCard.externalUrl}
             />
           );
         })}
