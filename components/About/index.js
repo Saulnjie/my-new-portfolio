@@ -1,5 +1,7 @@
 import styled from "styled-components";
 import { FaGithub } from "react-icons/fa";
+import {SiGmail} from "react-icons/si"
+import {SiInstagram} from "react-icons/si"
 
 const StyledAboutContainer = styled.div`
   display: flex;
@@ -26,6 +28,11 @@ const StyledIconSection = styled.div`
   height: 550px;
   margin: auto;
   color: #676767;
+  flex-direction: column;
+  font-size: var(--font-size-lg);
+  justify-content:center;
+  align-items:center;
+  // justify-items:space-between;
 `;
 
 const P = styled.p`
@@ -37,6 +44,7 @@ const H3 = styled.h3`
   font-family: "Raleway";
   font-size: var(--font-size-xxl);
   color: var(--color-black);
+  margin:0;
 `;
 
 const StyledP = styled.p`
@@ -61,16 +69,17 @@ export default function About() {
           meh subway tile tote bag. I'm baby whatever craft beer cliche blog
           austin cold-pressed hammock yuccie kale chips hoodie actually man bun
         </P>
+        <P>I'm baby whatever craft beer cliche blog austin cold-pressed hammock yuccie kale chips hoodie actually man bun</P>
       </StyledAboutSection>
       <StyledIconSection>
         <a>
-          <i className="FaGithub" />
+          <FaGithub/>
         </a>
         <a>
-          <i className="" />
+          <SiGmail/>
         </a>
         <a>
-          <i className="" />
+          <SiInstagram/>
         </a>
       </StyledIconSection>
     </StyledAboutContainer>

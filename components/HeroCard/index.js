@@ -1,4 +1,6 @@
 import styled from "styled-components";
+import {MdWork} from "react-icons/Md";
+import {MdLocationOn} from "react-icons/Md";
 
 const LandingCardMain = styled.div`
   background: var(--color-white);
@@ -80,6 +82,8 @@ export default function HeroLanding() {
             I make your dreams into a virtual experience of HTML, CSS &
             JavaScript
           </H2>
+          <StyledP><MdWork/>Front-End Dev Student</StyledP>
+          <StyledP><MdLocationOn/>Oslo, Norway</StyledP>
         </StyledHeroCardLeft>
         <StyledHeroCardRight>
           <StyledHeroImage></StyledHeroImage>
