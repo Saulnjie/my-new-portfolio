@@ -56,19 +56,31 @@ const H3 = styled.h3`
   font-size: var(--font-size-xxl);
   color: var(--color-black);
   margin: 0; /*Kanskje ikke beholde?*/
+  letter-spacing:1.5px;
 `;
 
 const H2 = styled.h2`
   color: var(--color-black);
   font-size: var(--font-size-md);
   font-weight: 300;
+  letter-spacing:1.5px;
 `;
 
 const StyledP = styled.p`
   font-family: "Raleway";
   font-size: var(--font-size);
-  font-weight: 500;
+  font-weight: 600;
   color: var(--color-tertiary);
+  letter-spacing:1.5px;
+  display:flex;
+  flex-direction:row;
+  // align-items: center; Få ikoner og tekst på linje?
+ 
+`;
+
+const StyledHeroIcons = styled.div`
+font-size:var(--font-size-md)
+margin-right:10px;
 `;
 
 export default function HeroLanding() {
@@ -82,8 +94,8 @@ export default function HeroLanding() {
             I make your dreams into a virtual experience of HTML, CSS &
             JavaScript
           </H2>
-          <StyledP><MdWork/>Front-End Dev Student</StyledP>
-          <StyledP><MdLocationOn/>Oslo, Norway</StyledP>
+          <StyledP><StyledHeroIcons><MdWork/></StyledHeroIcons>Front-End Dev Student</StyledP>
+          <StyledP><StyledHeroIcons><MdLocationOn/></StyledHeroIcons>Oslo, Norway</StyledP>
         </StyledHeroCardLeft>
         <StyledHeroCardRight>
           <StyledHeroImage></StyledHeroImage>
