@@ -56,6 +56,7 @@ export default function Home() {
         {projectCards.map((projectCard) => {
           return (
             <ProjectCard
+              key={projectCard.externalUrl}
               imageSrc={projectCard.imageSrc}
               title={projectCard.title}
               paragraph={projectCard.paragraph}

@@ -99,8 +99,8 @@ export default function Footer() {
       <H2>Skills & Software</H2>
 
       <SkillsContainer>
-        {SKILLS.map(({ Icon, description, skillIcons }) => (
-          <div>
+        {SKILLS.map(({ Icon, description, skillIcons }, index) => (
+          <div key={index}>
             <IconAndDescriptionWrapper>
               <LargeIconWrapper>
                 <Icon />
@@ -108,8 +108,8 @@ export default function Footer() {
               <SkillDescripion>{description}</SkillDescripion>
             </IconAndDescriptionWrapper>
             <div>
-              {skillIcons.map((Icon) => (
-                <SmallIconWrapper>
+              {skillIcons.map((Icon, index) => (
+                <SmallIconWrapper key={index}>
                   <Icon />
                 </SmallIconWrapper>
               ))}
