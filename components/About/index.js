@@ -85,7 +85,7 @@ export default function About() {
         <StyledP>My name is</StyledP>
         <H3>Saul Njie</H3>
         <P>
-          My name is Saul Njie. I'm a 29 year old Oslo based
+          My name is Saul Njie. I&lsquo;m a 29 year old Oslo based
           Front-End-Development student currently studying at campus Noroff
           Oslo. I love beeing creative, work out projects and to solve problems,
           this is why I make websites! The languages used it my pages are
