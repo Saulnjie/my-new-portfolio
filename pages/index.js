@@ -9,7 +9,7 @@ const projectCards = [
     imageSrc: "/images/TSSMCard.jpg",
     title: "TSSMuseum",
     paragraph:
-      "This was my first real project, ever. The page was made for exam purposses and is only\n made as a mockup site.\n\nThis page is entirely built with HTML & CSS, and was my semester exam for this course.",
+      "This was my first real project, ever. The task here was to make a landing page for a educational museum aimed at children and their parrents.\n The site is only made as a mockup site.\n\nThis page is entirely built with HTML & CSS, and was my semester exam for this course.",
     externalUrl: "https://confident-mestorf-9ca180.netlify.app/",
   },
   {

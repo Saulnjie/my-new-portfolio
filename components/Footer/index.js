@@ -109,3 +109,10 @@ export default function Footer() {
     </>
   );
 }
+
+// Kan man få til en onclick copy av Email f.eks?
+// <button
+//   onClick={() =>  navigator.clipboard.writeText('Copy this text to clipboard')}
+// >
+//   Copy
+// </button>

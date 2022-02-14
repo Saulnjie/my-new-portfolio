@@ -13,6 +13,7 @@ const P = styled.p`
   margin: 0;
   padding: 0;
   flex: 1;
+  line-height: 27px;
 `;
 
 const StyledprojectCard = styled.div`
