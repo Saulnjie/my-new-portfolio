@@ -7,6 +7,8 @@ const StyledAboutContainer = styled.div`
   display: flex;
   flex-direction: row;
   background: var(--color-white);
+  position: relative;
+  overflow: hidden;
 `;
 
 const StyledAboutSection = styled.div`
@@ -56,9 +58,29 @@ const StyledP = styled.p`
   letter-spacing: 1.5px;
 `;
 
+const StyledHelloWorldText = styled.span`
+  font-size: 100px;
+  white-space: nowrap;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 700;
+  position: absolute;
+  top: -35px;
+  right: 0;
+  opacity: 0.1;
+`;
+
+const StyledLink = styled.a`
+  transition: opacity 150ms ease-in-out;
+  &:hover {
+    opacity: 0.5;
+  }
+`;
+
 export default function About() {
   return (
     <StyledAboutContainer>
+      <StyledHelloWorldText>Hello World</StyledHelloWorldText>
       <StyledAboutSection>
         <StyledP>My name is</StyledP>
         <H3>Saul Njie</H3>
@@ -76,20 +98,16 @@ export default function About() {
         </P>
       </StyledAboutSection>
       <StyledIconSection>
-        <a href="https://github.com/Saulnjie">
+        <StyledLink href="https://github.com/Saulnjie">
           <FaGithub />
-        </a>
-        <a>
+        </StyledLink>
+        <StyledLink href="mailto:saulus92@gmail.com">
           <SiGmail />
-        </a>
-        <a href="https://www.instagram.com/saulsays/">
+        </StyledLink>
+        <StyledLink href="https://www.instagram.com/saulsays/">
           <SiInstagram />
-        </a>
+        </StyledLink>
       </StyledIconSection>
     </StyledAboutContainer>
   );
 }
-
-// :hover effect på iconer som kan klikkes, samt buttons
-// Helloworld teksten, hvordan for jeg "underlappet den"
-// Lottie

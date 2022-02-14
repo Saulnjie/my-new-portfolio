@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { MdWork } from "react-icons/Md";
 import { MdLocationOn } from "react-icons/Md";
+import { Player } from "@lottiefiles/react-lottie-player";
 
 const LandingCardMain = styled.div`
   background: var(--color-white);
@@ -16,6 +17,10 @@ const StyledHeroCardContainer = styled.div`
   height: 100%;
   width: 100%;
   /* margin-top: var(--size-xl); */
+  @media (max-width: 1000px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 
 const StyledHeroCardLeft = styled.div`
@@ -41,6 +46,7 @@ const StyledHeroImage = styled.div`
   height: 279px;
   width: 287px;
   margin: auto;
+  z-index: 2;
 `;
 
 const P = styled.p`
@@ -57,6 +63,11 @@ const H3 = styled.h3`
   color: var(--color-black);
   margin: 0; /*Kanskje ikke beholde?*/
   letter-spacing: 1.5px;
+  line-height: 80%;
+
+  @media (max-width: 1000px) {
+    /* font-size: 16px; */
+  }
 `;
 
 const H2 = styled.h2`
@@ -82,6 +93,26 @@ const StyledHeroIcons = styled.div`
   margin-right: 10px;
 `;
 
+const IconContainer = styled.div`
+  &:last-of-type {
+    margin-top: 8px;
+  }
+  color: var(--color-tertiary);
+  display: flex;
+  gap: 8px;
+`;
+
+const HeroImageWrapper = styled.div`
+  position: relative;
+  margin: auto;
+`;
+
+const StyledPlayer = styled(Player)`
+  position: absolute;
+  transform: scale(2);
+  z-index: 1;
+`;
+
 export default function HeroLanding() {
   return (
     <LandingCardMain>
@@ -93,21 +124,24 @@ export default function HeroLanding() {
             I make your dreams into a virtual experience of HTML, CSS &
             JavaScript
           </H2>
-          <StyledP>
-            <StyledHeroIcons>
-              <MdWork />
-            </StyledHeroIcons>
+          <IconContainer>
+            <MdWork />
             Front-End Dev Student
-          </StyledP>
-          <StyledP>
-            <StyledHeroIcons>
-              <MdLocationOn />
-            </StyledHeroIcons>
+          </IconContainer>
+          <IconContainer>
+            <MdLocationOn />
             Oslo, Norway
-          </StyledP>
+          </IconContainer>
         </StyledHeroCardLeft>
         <StyledHeroCardRight>
-          <StyledHeroImage></StyledHeroImage>
+          <HeroImageWrapper>
+            <StyledPlayer
+              src="/lottie/lf30_editor_gg4pgfqe.json"
+              autoplay
+              loop
+            />
+            <StyledHeroImage></StyledHeroImage>
+          </HeroImageWrapper>
         </StyledHeroCardRight>
       </StyledHeroCardContainer>
     </LandingCardMain>

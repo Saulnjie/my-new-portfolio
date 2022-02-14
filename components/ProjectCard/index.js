@@ -37,6 +37,10 @@ const ProjectCardImg = styled.img`
 `;
 
 const StyledLink = styled.a`
+  transition: opacity 150ms ease-in-out;
+  &:hover {
+    opacity: 0.5;
+  }
   width: 120px;
   height: 40px;
   display: flex;
