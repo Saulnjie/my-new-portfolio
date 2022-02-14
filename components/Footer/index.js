@@ -7,9 +7,9 @@ import { SiStrapi, SiReact, SiNextdotjs } from "react-icons/si";
 import { SiTailwindcss } from "react-icons/si";
 import { SiAdobexd } from "react-icons/si";
 import { SiFigma } from "react-icons/si";
-import { MdWork } from "react-icons/Md";
-import { BsHeartFill } from "react-icons/Bs";
-import { FaPencilAlt } from "react-icons/Fa";
+import { MdWork } from "react-icons/md";
+import { BsHeartFill } from "react-icons/bs";
+import { FaPencilAlt } from "react-icons/fa";
 
 const StyledFooter = styled.div`
   margin-bottom: var(--size-huge);

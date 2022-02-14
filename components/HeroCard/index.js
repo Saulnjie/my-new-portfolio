@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import { MdWork } from "react-icons/Md";
-import { MdLocationOn } from "react-icons/Md";
+import { MdWork } from "react-icons/md";
+import { MdLocationOn } from "react-icons/md";
 import { Player } from "@lottiefiles/react-lottie-player";
 
 const LandingCardMain = styled.div`
