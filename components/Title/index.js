@@ -3,6 +3,7 @@ const H2 = styled.h2`
   font-family: "Raleway";
   font-size: var(--font-size-lg);
   color: var(--color-white);
+  margin-top: 20px;
 `;
 
 export default H2;

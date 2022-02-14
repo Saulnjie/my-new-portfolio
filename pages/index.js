@@ -35,7 +35,7 @@ const ProjectCardWrapper = styled.div`
 `;
 
 const SkyImageWrapper = styled.div`
-  background: url("/images/bluesky.jpg");
+  /* background: url("/images/bluesky.jpg"); */
   /* width: 100%;
   height: 600px;
   object-fit: cover; */
