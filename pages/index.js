@@ -2,6 +2,7 @@ import styled from "styled-components";
 import ProjectCard from "../components/ProjectCard";
 import About from "../components/About";
 import HeroLanding from "../components/HeroCard";
+import H2 from "../components/Title";
 
 const projectCards = [
   {
@@ -50,6 +51,7 @@ export default function Home() {
       <SkyImageWrapper></SkyImageWrapper>
       <HeroLanding></HeroLanding>
       <Spacer></Spacer>
+      <H2>Projects</H2>
       <ProjectCardWrapper>
         {projectCards.map((projectCard) => {
           return (
@@ -63,6 +65,7 @@ export default function Home() {
         })}
       </ProjectCardWrapper>
       <Spacer></Spacer>
+      <H2>About</H2>
       <About></About>
       <Spacer></Spacer>
     </div>

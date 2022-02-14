@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import Button from "../Button";
 
-const H2 = styled.h2`
+const H3 = styled.h2`
   color: var(--color-white);
   font-size: var(--font-size-md);
 `;
@@ -59,7 +59,7 @@ export default function ProjectCard({
     <StyledprojectCard>
       <ProjectCardImg src={imageSrc} />
       <ProjectCardWrapper>
-        <H2>{title}</H2>
+        <H3>{title}</H3>
         <P>{paragraph}</P>
         <StyledLink href={externalUrl}>Visit Site</StyledLink>
       </ProjectCardWrapper>
