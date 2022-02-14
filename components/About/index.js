@@ -64,7 +64,7 @@ export default function About() {
       </StyledAboutSection>
       <StyledIconSection>
         <a>
-          <i className="FaGithub" />
+          <FaGithub />
         </a>
         <a>
           <i className="" />
