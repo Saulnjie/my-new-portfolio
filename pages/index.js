@@ -23,7 +23,7 @@ const projectCards = [
     imageSrc: "/images/CammiesCard.jpg",
     title: "Cammies Records",
     paragraph:
-      "This is the last project I'v been working on. This was a ecommerce site, and was made\n with HTML, CSS & Javascript.\n\n The exam was supposed to test us on headless CMSs and creating an API for a\n Ecommerce website. The project was made as a mockup.",
+      "This is the last project I'v been working on. This is an ecommerce site, and was made\n with HTML, CSS & Javascript.\n\n The exam was supposed to test us on headless CMSs and creating an API for a\n Ecommerce website. The project was made as a mockup.",
     externalUrl: "https://eager-ardinghelli-8f1c31.netlify.app/index.html",
   },
 ];
