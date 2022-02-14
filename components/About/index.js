@@ -67,8 +67,8 @@ export default function About() {
           Front-End-Development student currently studying at campus Noroff
           Oslo. I love beeing creative, work out projects and to solve problems,
           this is why I make websites! The languages used it my pages are
-          currently HTML, CSS and JavaScript. This will advance to React within
-          the next year. My work-idiology is: Keep on clicking the good fight!
+          currently HTML, CSS and JavaScript. This is now advancing towards
+          React. My work-idiology is: Click on Clicking!
         </P>
         <P>
           For any questions or inquiries, please do not hesitate to contact me
