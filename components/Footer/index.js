@@ -1,18 +1,17 @@
 import styled from "styled-components";
 import H2 from "../Title";
-import {SiJavascript} from "react-icons/si"
-import {SiCss3} from "react-icons/si"
-import {SiHtml5} from "react-icons/si"
-import {SiStrapi} from "react-icons/si"
-import {SiReact} from "react-icons/si"
-import {SiNextdotjs} from "react-icons/si"
-import {SiTailwindcss} from "react-icons/si"
-import {SiAdobexd} from "react-icons/si"
-import {SiFigma} from "react-icons/si"
-import {MdWork} from "react-icons/Md"
-import {BsHeartFill} from "react-icons/Bs"
-import {FaPencilAlt} from "react-icons/Fa"
-
+import { SiJavascript } from "react-icons/si";
+import { SiCss3 } from "react-icons/si";
+import { SiHtml5 } from "react-icons/si";
+import { SiStrapi } from "react-icons/si";
+import { SiReact } from "react-icons/si";
+import { SiNextdotjs } from "react-icons/si";
+import { SiTailwindcss } from "react-icons/si";
+import { SiAdobexd } from "react-icons/si";
+import { SiFigma } from "react-icons/si";
+import { MdWork } from "react-icons/Md";
+import { BsHeartFill } from "react-icons/Bs";
+import { FaPencilAlt } from "react-icons/Fa";
 
 const StyledFooter = styled.div`
   width: 100%;
@@ -34,21 +33,31 @@ const StyledFooterSection = styled.div`
 `;
 
 const StyledFooterIconWrapper = styled.div`
-display:flex;
-flex-direction:row;
-font-size: var(--font-size-lg);
+  display: flex;
+  flex-direction: row;
+  font-size: var(--font-size-md);
+  justify-content: space-between;
+  width: 50%;
+  margin-left: 4px;
+`;
+
+const StyledFooterIconWrapperSmall = styled.div`
+  display: flex;
+  flex-direction: row;
+  font-size: var(--font-size-md);
+  justify-content: space-between;
+  width: 25%;
 `;
 
 const StyledFooterInfoWrapper = styled.div`
-display:flex;
-flex-direction:row; 
-font-size: var(--font-size);
-// align-items:space-evenly; Why??
+  display: flex;
+  flex-direction: row;
+  font-size: var(--font-size);
 `;
 
 const StyledMainIcons = styled.div`
-font-size: var(--font-size-xl);
-margin-right:15px;
+  font-size: var(--font-size-lg);
+  margin-right: 15px;
 `;
 
 export default function Footer() {
@@ -59,42 +68,42 @@ export default function Footer() {
         <StyledFooterSection>
           <StyledFooterInfoWrapper>
             <StyledMainIcons>
-          <MdWork/>
-          </StyledMainIcons>
-          Languages & framworks I use on a <br />
-          day to day basis
+              <MdWork />
+            </StyledMainIcons>
+            Languages & framworks I use on a <br />
+            day to day basis
           </StyledFooterInfoWrapper>
           <StyledFooterIconWrapper>
-            <SiJavascript/>
-            <SiCss3/>
-            <SiHtml5/>
-            <SiStrapi/>
+            <SiJavascript />
+            <SiCss3 />
+            <SiHtml5 />
+            <SiStrapi />
           </StyledFooterIconWrapper>
         </StyledFooterSection>
         <StyledFooterSection>
           <StyledFooterInfoWrapper>
-          <StyledMainIcons>
-          <BsHeartFill/>
-          </StyledMainIcons>
-          Languages & framworks I <br /> am currently learing
+            <StyledMainIcons>
+              <BsHeartFill />
+            </StyledMainIcons>
+            Languages & framworks I <br /> am currently learing
           </StyledFooterInfoWrapper>
-        <StyledFooterIconWrapper>
-        <SiReact/>
-        <SiNextdotjs/>
-        <SiTailwindcss/>
-        </StyledFooterIconWrapper>
+          <StyledFooterIconWrapper>
+            <SiReact />
+            <SiNextdotjs />
+            <SiTailwindcss />
+          </StyledFooterIconWrapper>
         </StyledFooterSection>
         <StyledFooterSection>
           <StyledFooterInfoWrapper>
-          <StyledMainIcons>
-            <FaPencilAlt/>
-          </StyledMainIcons>
-        Design programs I use daily
-        </StyledFooterInfoWrapper>
-        <StyledFooterIconWrapper>
-          <SiAdobexd/>
-          <SiFigma/>
-        </StyledFooterIconWrapper>
+            <StyledMainIcons>
+              <FaPencilAlt />
+            </StyledMainIcons>
+            Design programs I use daily
+          </StyledFooterInfoWrapper>
+          <StyledFooterIconWrapperSmall>
+            <SiAdobexd />
+            <SiFigma />
+          </StyledFooterIconWrapperSmall>
         </StyledFooterSection>
       </StyledFooter>
     </>

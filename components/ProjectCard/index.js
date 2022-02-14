@@ -47,7 +47,10 @@ const StyledLink = styled.a`
   font-size: var(--font-size);
   border-radius: 8px;
   border: none;
+  text-decoration: none;
 `;
+
+// :hover
 
 export default function ProjectCard({
   imageSrc,
