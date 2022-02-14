@@ -25,12 +25,12 @@ const StyledIconSection = styled.div`
   display: flex;
   /* background-color: red; */
   border-left: 5px solid var(--color-grey);
-  height: 550px;
+  height: 400px;
   margin: auto;
   color: #676767;
   flex-direction: column;
   font-size: var(--font-size-lg);
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   // justify-items:space-between;
 `;
@@ -38,6 +38,7 @@ const StyledIconSection = styled.div`
 const P = styled.p`
   font-size: var(--font-size);
   color: var(--color-black);
+  line-height: 27px;
 `;
 
 const H3 = styled.h3`
@@ -62,30 +63,33 @@ export default function About() {
         <StyledP>My name is</StyledP>
         <H3>Saul Njie</H3>
         <P>
-          I'm baby whatever craft beer cliche blog austin cold-pressed hammock
-          yuccie kale chips hoodie actually man bun. Ramps polaroid selvage
-          chillwave hashtag. +1 normcore before they sold out hammock,
-          skateboard cardigan wayfarers gluten-free occupy cred. Glossier la
-          croix tousled portland chicharrones helvetica art party quinoa hoodie
-          meh subway tile tote bag. I'm baby whatever craft beer cliche blog
-          austin cold-pressed hammock yuccie kale chips hoodie actually man bun
+          My name is Saul Njie. I'm a 29 year old Oslo based
+          Front-End-Development student currently studying at campus Noroff
+          Oslo. I love beeing creative, work out projects and to solve problems,
+          this is why I make websites! The languages used it my pages are
+          currently HTML, CSS and JavaScript. This will advance to React within
+          the next year. My work-idiology is: Keep on clicking the good fight!
         </P>
         <P>
-          I'm baby whatever craft beer cliche blog austin cold-pressed hammock
-          yuccie kale chips hoodie actually man bun
+          For any questions or inquiries, please do not hesitate to contact me
+          through social media, Github or by email.
         </P>
       </StyledAboutSection>
       <StyledIconSection>
-        <a>
+        <a href="https://github.com/Saulnjie">
           <FaGithub />
         </a>
         <a>
           <SiGmail />
         </a>
-        <a>
+        <a href="https://www.instagram.com/saulsays/">
           <SiInstagram />
         </a>
       </StyledIconSection>
     </StyledAboutContainer>
   );
 }
+
+// :hover effect på iconer som kan klikkes, samt buttons
+// Helloworld teksten, hvordan for jeg "underlappet den"
+// Lottie
