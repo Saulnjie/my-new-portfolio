@@ -8,12 +8,13 @@ import Head from "next/head";
 const Main = styled.div`
   width: 100%;
   flex: 1 0 auto;
-  max-width: 1200px;
+  max-width: 1100px;
   margin: 0 auto;
 `;
 
 const Body = styled.div`
   width: 100vw;
+  max-width: 100%;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
