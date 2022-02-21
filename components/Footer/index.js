@@ -1,12 +1,7 @@
 import styled from "styled-components";
 import H2 from "../Title";
-import { SiJavascript } from "react-icons/si";
-import { SiCss3 } from "react-icons/si";
-import { SiHtml5 } from "react-icons/si";
-import { SiStrapi, SiReact, SiNextdotjs } from "react-icons/si";
-import { SiTailwindcss } from "react-icons/si";
-import { SiAdobexd } from "react-icons/si";
-import { SiFigma } from "react-icons/si";
+// Import form one external file.
+import { SiStrapi, SiReact, SiNextdotjs, SiTailwindcss, SiAdobexd, SiFigma, SiJavascript, SiCss3, SiHtml5 } from "react-icons/si";
 import { MdWork } from "react-icons/md";
 import { BsHeartFill } from "react-icons/bs";
 import { FaPencilAlt } from "react-icons/fa";
@@ -77,6 +72,7 @@ const IconAndDescriptionWrapper = styled.div`
 
 const SKILLS = [
   {
+    // NIce to see you figured this out.
     Icon: MdWork,
     description: "Languages & framworks I use on aday to day basis",
     skillIcons: [SiJavascript, SiHtml5, SiCss3, SiStrapi],
@@ -123,6 +119,7 @@ export default function Footer() {
 
 // Kan man få til en onclick copy av Email f.eks?
 // <button
+//  Can't access navigator when building on the server. You need to add a conditional statement to check that their is a navigator object
 //   onClick={() =>  navigator.clipboard.writeText('Copy this text to clipboard')}
 // >
 //   Copy
