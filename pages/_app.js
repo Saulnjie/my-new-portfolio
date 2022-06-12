@@ -6,10 +6,12 @@ import Head from "next/head";
 
 /* PRIMARY COMPONENTS */
 const Main = styled.div`
-  width: 100%;
+  width: 66%;
   flex: 1 0 auto;
-  max-width: 1100px;
+  /* max-width: 80%; */
   margin: 0 auto;
+  @media (max-width: 1000px) {
+  }
 `;
 
 const Body = styled.div`

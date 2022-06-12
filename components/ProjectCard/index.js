@@ -20,6 +20,9 @@ const StyledprojectCard = styled.div`
   display: flex;
   background: var(--color-grey);
   border-radius: 8px;
+  @media (max-width: 1000px) {
+    flex-direction: column;
+  }
 `;
 
 const ProjectCardWrapper = styled.div`
@@ -34,6 +37,9 @@ const ProjectCardImg = styled.img`
   width: 400px;
   height: auto;
   border-radius: 8px 0px 0px 8px;
+  @media (max-width: 1000px) {
+    width: 100%;
+  }
 `;
 
 const StyledLink = styled.a`

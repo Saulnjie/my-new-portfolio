@@ -47,6 +47,10 @@ const StyledHeroImage = styled.div`
   width: 287px;
   margin: auto;
   z-index: 2;
+  @media (max-width: 1000px) {
+    width: 100px;
+    height: 100px;
+  }
 `;
 
 const P = styled.p`
@@ -66,7 +70,7 @@ const H3 = styled.h3`
   line-height: 80%;
 
   @media (max-width: 1000px) {
-    /* font-size: 16px; */
+    font-size: 24px;
   }
 `;
 
@@ -111,6 +115,9 @@ const StyledPlayer = styled(Player)`
   position: absolute;
   transform: scale(2);
   z-index: 1;
+  @media (max-width: 1000px) {
+    display: none;
+  }
 `;
 
 export default function HeroLanding() {

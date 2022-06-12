@@ -47,7 +47,7 @@ const Spacer = styled.div`
 
 export default function Home() {
   return (
-    <div>
+    <div className="wrapper">
       <SkyImageWrapper></SkyImageWrapper>
       <HeroLanding></HeroLanding>
       <Spacer></Spacer>

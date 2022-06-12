@@ -54,6 +54,11 @@ const StyledMainIcons = styled.div`
 const SkillsContainer = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  @media (max-width: 1000px) {
+    grid-template-columns: 1fr;
+    max-width: 90%;
+    margin: auto;
+  }
 `;
 
 const SkillDescripion = styled.span`
@@ -97,7 +102,6 @@ export default function Footer() {
   return (
     <StyledFooter>
       <H2>Skills & Software</H2>
-
       <SkillsContainer>
         {SKILLS.map(({ Icon, description, skillIcons }, index) => (
           <div key={index}>
