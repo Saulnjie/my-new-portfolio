@@ -56,7 +56,7 @@ const SkillsContainer = styled.div`
   grid-template-columns: 1fr 1fr 1fr;
   @media (max-width: 1000px) {
     grid-template-columns: 1fr;
-    max-width: 90%;
+    /* max-width: 90%; */
     margin: auto;
   }
 `;

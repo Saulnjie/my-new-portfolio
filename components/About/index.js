@@ -9,17 +9,24 @@ const StyledAboutContainer = styled.div`
   background: var(--color-white);
   position: relative;
   overflow: hidden;
+  @media (max-width: 1000px) {
+    flex-direction: column;
+  }
 `;
 
 const StyledAboutSection = styled.div`
   width: 50%;
-  height: 580px;
+  min-height: 580px;
   flex: 0 0 auto;
   background: var(--color-white);
   padding: var(--size-lg);
   margin-top: var(--size-xl);
   margin-bottom: var(--size-xl);
   margin-left: 12.5%;
+  @media (max-width: 1000px) {
+    width: 100%;
+    margin-left: 0;
+  }
 `;
 
 const StyledIconSection = styled.div`
@@ -35,6 +42,11 @@ const StyledIconSection = styled.div`
   justify-content: space-evenly;
   align-items: center;
   // justify-items:space-between;
+  @media (max-width: 1000px) {
+    width: 50%;
+    margin-left: 10%;
+    margin-bottom: 20px;
+  }
 `;
 
 const P = styled.p`

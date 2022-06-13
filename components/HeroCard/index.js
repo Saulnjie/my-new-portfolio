@@ -39,17 +39,20 @@ const StyledHeroCardRight = styled.div`
   /* background: red; */
   width: 30%;
   margin-right: 12.5%;
+  @media (max-width: 1000px) {
+    width: 100%;
+  }
 `;
 
 const StyledHeroImage = styled.div`
   background: url("/images/Saul.png");
   height: 279px;
-  width: 287px;
+  width: 279px;
   margin: auto;
   z-index: 2;
   @media (max-width: 1000px) {
-    width: 100px;
-    height: 100px;
+    height: 279px;
+    width: 279px;
   }
 `;
 
@@ -109,6 +112,10 @@ const IconContainer = styled.div`
 const HeroImageWrapper = styled.div`
   position: relative;
   margin: auto;
+  @media (max-width: 1000px) {
+    position: relative;
+    object-fit: cover;
+  }
 `;
 
 const StyledPlayer = styled(Player)`

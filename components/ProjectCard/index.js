@@ -36,6 +36,7 @@ const ProjectCardWrapper = styled.div`
 const ProjectCardImg = styled.img`
   width: 400px;
   height: auto;
+  object-fit: cover;
   border-radius: 8px 0px 0px 8px;
   @media (max-width: 1000px) {
     width: 100%;
