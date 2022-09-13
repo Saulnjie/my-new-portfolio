@@ -97,8 +97,8 @@ export default function About() {
         <StyledP>My name is</StyledP>
         <H3>Saul Njie</H3>
         <P>
-          My name is Saul Njie. I&lsquo;m a 29 year old Oslo based
-          Front-End-Development student currently studying at campus Noroff
+          My name is Saul Njie. I&lsquo;m a 30 year old Oslo based
+          Front-End-Developmenter that just finished my studies at Noroff, campus
           Oslo. I love beeing creative, work out projects and to solve problems,
           this is why I make websites! The languages used it my pages are
           currently HTML, CSS and JavaScript. This is now advancing towards
@@ -113,7 +113,7 @@ export default function About() {
         <StyledLink href="https://github.com/Saulnjie">
           <FaGithub />
         </StyledLink>
-        <StyledLink href="mailto:saulus92@gmail.com">
+        <StyledLink href="mailto:saul.njie.dev@gmail.com">
           <SiGmail />
         </StyledLink>
         <StyledLink href="https://www.instagram.com/saulsays/">

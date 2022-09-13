@@ -140,7 +140,7 @@ export default function HeroLanding() {
           </H2>
           <IconContainer>
             <MdWork />
-            Front-End Dev Student
+            Front-End Developer
           </IconContainer>
           <IconContainer>
             <MdLocationOn />
