@@ -6,7 +6,7 @@ import H2 from "../components/Title";
 
 const projectCards = [
   {
-    imageSrc: "/images/aylascan.png",
+    imageSrc: "/images/ffs-new-page.jpg",
     title: "Aylagursoy.com",
     paragraph:
       "This project was a pet-project that was made for a friend of mine during the first year of studies. This project got an update during my final exam, and was used for my submission. The site was made as \n a portfolio for her designs and other work.\n\nThe page was built using nextjs, react and tailwind.",

@@ -135,8 +135,8 @@ export default function HeroLanding() {
           <StyledP>SAUL NJIE</StyledP>
           <H3>Creative Developer</H3>
           <H2>
-            I make your dreams into a virtual experience of HTML, CSS &
-            JavaScript
+            {/* I make your dreams into a virtual experience of HTML, CSS &
+            JavaScript */}
           </H2>
           <IconContainer>
             <MdWork />
