@@ -109,13 +109,13 @@ export default function About() {
         </P>
       </StyledAboutSection>
       <StyledIconSection>
-        <StyledLink href="https://github.com/Saulnjie">
+        <StyledLink href="https://github.com/Saulnjie" target="_blank">
           <FaGithub />
         </StyledLink>
-        <StyledLink href="mailto:saul.njie.dev@gmail.com">
+        <StyledLink href="mailto:saul.njie.dev@gmail.com" target="_blank">
           <SiGmail />
         </StyledLink>
-        <StyledLink href="https://www.instagram.com/saulsays/">
+        <StyledLink href="https://www.instagram.com/saulsays/" target="_blank">
           <SiInstagram />
         </StyledLink>
       </StyledIconSection>
